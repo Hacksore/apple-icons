@@ -1,6 +1,10 @@
 import { promises as fs } from "node:fs";
 
 const applications = [
+  // NOTE: WTF these are in an asset file
+  // { name: "System Settings" },
+  // { name: "Photo Booth" },
+  // { name: "Calendar" },
   { name: "Xcode", iconName: true, user: true },
   { name: "Weather" },
   { name: "VoiceMemos", iconName: "MacAppIcon" },
@@ -8,8 +12,6 @@ const applications = [
   { name: "Tips" },
   { name: "Time Machine" },
   { name: "TextEdit" },
-  // NOTE: WTF
-  // { name: "System Settings" },
   { name: "Stocks" },
   { name: "Stickies" },
   { name: "Siri" },
@@ -20,7 +22,6 @@ const applications = [
   { name: "Preview" },
   { name: "Podcasts" },
   { name: "Photos" },
-  // { name: "Photo Booth" },
   { name: "Passwords" },
   { name: "Notes" },
   { name: "News" },
@@ -45,7 +46,6 @@ const applications = [
   { name: "Contacts", iconName: true },
   { name: "Clock" },
   { name: "Chess" },
-  // { name: "Calendar" },
   { name: "Calculator" },
   { name: "Books" },
   { name: "Automator" },
